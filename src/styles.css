@@ -1,0 +1,79 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 58%;
+  height: 30%;
+  background: #f2f2f2;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.todoForm {
+  margin-bottom: 35px;
+}
+
+input.inputForm {
+  width: 60%;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+button.submitButton {
+  width: 8%;
+  color: white;
+  cursor: pointer;
+  background: #1890ff;
+  border: 1px solid #1890ff;
+  border-radius: 2px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.todo {
+  padding: 10px;
+  border-bottom: 1px solid #e2e0dd;
+  text-align: center;
+}
+
+.todoList {
+  background: #fefefe;
+}
+
+button.editButton {
+  float: right;
+  margin-right: 15px;
+  height: 30%;
+  background: #31cf54;
+  border-radius: 3px;
+  border: 1px solid #31cf54;
+  padding: 2px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+button.deleteButton {
+  float: right;
+  margin-right: 15px;
+  float: right;
+  margin-right: 15px;
+  height: 30%;
+  background: #ff564e;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #ff564e;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+.title {
+  border-bottom: 1px solid #e2e0dd;
+  padding: 1px;
+  text-align: center;
+}
